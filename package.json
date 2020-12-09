@@ -1,12 +1,16 @@
 {
   "name": "@dzc314/ele-tree-transfer",
-  "version": "0.1.3",
+  "version": "0.1.4",
   "private": false,
   "repository": {
     "type": "git",
     "url": "https://github.com/dzc314/ele-tree-transfer"
   },
   "main": "./dist/ele-tree-transfer.common.js",
+  "keywords": [
+    "tree-transfer",
+    "vue树形穿梭框"
+  ],
   "files": [
     "dist/*",
     "src/*",

@@ -284,6 +284,7 @@ export default {
       } else {
         data = this.cloneDeep(this.rightData)
       }
+      // this.$emit('change', data)
       const length = this.target.length
       Array.prototype.splice.apply(this.target, [0, length, ...data])
     },
